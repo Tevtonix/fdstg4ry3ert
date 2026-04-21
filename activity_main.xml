@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#E0F7FA"> <!-- К заданию №4: Фон экрана бирюзовый -->
+
+    <!-- ЗАДАНИЕ №3: ИЗМЕНЯЕМ ТЕКСТ -->
+    <TextView
+        android:id="@+id/textHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Привет, мои заметки!"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- ПОЛЕ ВВОДА -->
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите заметку..."
+        android:layout_marginTop="24dp" />
+
+    <!-- КНОПКА -->
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить"
+        android:layout_marginTop="16dp"
+        android:background="#FF5722" />
+
+    <!--  ЗАДАНИЕ №4: Добавление цвета к кнопке -->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonAdd"-->
+    <!--        android:background="#FF5722" // Кнопка оранжевая-->
+    <!--        android:text="Логнуть" />-->
+
+</LinearLayout>
